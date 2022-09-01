@@ -3,6 +3,7 @@
   box-sizing: border-box;
 }
 html, body, div, img {
+  color: #fff;
   margin: 0;
   padding: 0;
   border: 0;
@@ -12,13 +13,27 @@ html, body, div, img {
 }
 body {
   line-height: 1;
+  
 }
 
+.section-home{
+  background-color: #1F2937;
+
+}
+
+.section-projects{
+  background-color: #e5e7eb;
+}
+
+.section-footer{
+  background-color: #1F2937 ;
+}
 
 
 /* flexbox layout project images */
 
 .container {
+  
   display: flex;
   justify-content: center;
   /* flex-wrap: wrap; */
@@ -26,6 +41,7 @@ body {
 }
 .item {
   margin: 5px;
+  
 }
 
 
@@ -113,6 +129,7 @@ body {
  @media only screen and (max-width: 1028px) {
 
   .container {
+    
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
