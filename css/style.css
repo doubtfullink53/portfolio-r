@@ -125,7 +125,7 @@ body {
   display: flex;
   margin: 8px;
   max-width: 150px;
-  min-width: 150px;
+  min-width: 250px;
   overflow: hidden;
   position: relative;
   text-align: center;
@@ -135,3 +135,27 @@ body {
 } 
 
 
+
+@media only screen and (max-width: 700px) {
+
+  .container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 5px;
+  }
+  .hover-img {
+  
+  background-color: #000;
+  color: #fff;
+  display: flex;
+  margin: 8px;
+  max-width: 120px;
+  min-width: 120px;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  width: 100%;
+}
+  
+} 
