@@ -1,4 +1,5 @@
 
+
 $(document).ready(function() {
     $('#fullpage').fullpage({
         navigation: true,
@@ -11,8 +12,13 @@ $(document).ready(function() {
 
 
 
+
+
+
 lightbox.option({
     'resizeDuration': 200,
     'wrapAround': true,
     'maxWidth': 700,
   })
+
+

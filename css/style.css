@@ -149,6 +149,10 @@ a{
 
 .section-contact .container div{
   margin: 10vh;
+ 
+}
+.hover:hover{
+  transform: scale(1.5);
 }
 
 
