@@ -159,6 +159,7 @@ a{
 
 /* end contact session */
 
+
  @media only screen and (max-width: 1028px) {
 
   .container {
@@ -207,5 +208,10 @@ a{
   text-align: center;
   width: 100%;
 }
-  
+.hover:hover{
+  transform: scale(1.3);
+}
+
+
+
 } 
