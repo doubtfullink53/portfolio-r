@@ -24,10 +24,10 @@ body {
 }
 
 .section-projects{
-  background-color: #e5e7eb;
+  background-color: #c6cacf;
 }
 
-.section-footer{
+.section-contact{
   background-color: #1F2937 ;
 }
 
@@ -134,6 +134,27 @@ a{
 
 /* end overlay image with text */
 
+
+
+/* contact section  */
+
+
+.section .section-contact .container{
+  display: flex;
+}
+
+.section-contact .container i{
+  font-size: 30vh;
+}
+
+.section-contact .container div{
+  margin: 10vh;
+}
+
+
+
+/* end contact session */
+
  @media only screen and (max-width: 1028px) {
 
   .container {
@@ -175,7 +196,7 @@ a{
   color: #fff;
   display: flex;
   margin: 8px;
-  max-width: 120px;
+  max-width: 30vh;
   min-width: 120px;
   overflow: hidden;
   position: relative;
