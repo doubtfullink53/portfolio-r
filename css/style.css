@@ -1,10 +1,12 @@
-
 @import url("cssbox.css");
 
 * {
   box-sizing: border-box;
 }
-html, body, div, img {
+html,
+body,
+div,
+img {
   color: #fff;
   margin: 0;
   padding: 0;
@@ -15,27 +17,37 @@ html, body, div, img {
 }
 body {
   line-height: 1;
+
+}
+
+
+
+/* home section */
+#section-home div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+ padding-bottom: 20%;
   
 }
 
-.section-home{
-  /* background-color: #1F2937; */
-
+#section-home .pad-right{
+  padding-right: 30px;
+ 
 }
 
-.section-projects{
+.section-projects {
   background-color: #c6cacf;
 }
 
-.section-contact{
-  background-color: #1F2937 ;
+.section-contact {
+  background-color: #1f2937;
 }
-
 
 /* flexbox layout project images */
 
 .container {
-  
   display: flex;
   justify-content: center;
   /* flex-wrap: wrap; */
@@ -43,15 +55,34 @@ body {
 }
 .item {
   margin: 5px;
-  
 }
-a{
+a {
   color: white !important;
 }
 
+
+
+
+/* contact section  */
+
+.section .section-contact .container {
+  display: flex;
+}
+
+.section-contact .container i {
+  font-size: 30vh;
+}
+
+.section-contact .container div {
+  margin: 10vh;
+}
+.hover:hover {
+  transform: scale(1.5);
+}
+
+
 /* overlay image with text  */
 .hover-img {
-  
   background-color: #000;
   color: #fff;
   display: flex;
@@ -68,9 +99,7 @@ a{
   color: #fff;
 }
 
-.hover-img 
-
-.hover-img * {
+.hover-img .hover-img * {
   box-sizing: border-box;
   transition: all 0.45s ease;
 }
@@ -83,7 +112,7 @@ a{
   bottom: 0;
   left: 0;
   right: 0;
-  content: '';
+  content: "";
   transition: all 0.3s ease;
   z-index: 1;
   opacity: 0;
@@ -134,61 +163,33 @@ a{
 
 /* end overlay image with text */
 
-
-
-/* contact section  */
-
-
-.section .section-contact .container{
-  display: flex;
-}
-
-.section-contact .container i{
-  font-size: 30vh;
-}
-
-.section-contact .container div{
-  margin: 10vh;
- 
-}
-.hover:hover{
-  transform: scale(1.5);
-}
-
-
-
 /* end contact session */
 
 
- @media only screen and (max-width: 1028px) {
 
+/* media displays  */
+@media only screen and (max-width: 1028px) {
   .container {
-    
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     padding: 5px;
   }
   .hover-img {
-  
-  background-color: #000;
-  color: #fff;
-  display: flex;
-  margin: 8px;
-  max-width: 150px;
-  min-width: 250px;
-  overflow: hidden;
-  position: relative;
-  text-align: center;
-  width: 100%;
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    margin: 8px;
+    max-width: 150px;
+    min-width: 250px;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    width: 100%;
+  }
 }
-  
-} 
-
-
 
 @media only screen and (max-width: 700px) {
-
   .container {
     display: flex;
     justify-content: center;
@@ -196,22 +197,18 @@ a{
     padding: 5px;
   }
   .hover-img {
-  
-  background-color: #000;
-  color: #fff;
-  display: flex;
-  margin: 8px;
-  max-width: 25vh;
-  min-width: 120px;
-  overflow: hidden;
-  position: relative;
-  text-align: center;
-  width: 100%;
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    margin: 8px;
+    max-width: 25vh;
+    min-width: 120px;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    width: 100%;
+  }
+  .hover:hover {
+    transform: scale(1.3);
+  }
 }
-.hover:hover{
-  transform: scale(1.3);
-}
-
-
-
-} 
