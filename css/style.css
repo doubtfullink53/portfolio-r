@@ -82,17 +82,19 @@ a {
 
 .section .section-contact .container {
   display: flex;
+  align-items: flex-start;
 }
 
 .section-contact .container i {
-  font-size: 30vh;
+  font-size: 10vh;
+  
 }
 
 .section-contact .container div {
   margin: 10vh;
 }
 .hover:hover {
-  transform: scale(1.5);
+  transform: scale(1.3);
 }
 
 
